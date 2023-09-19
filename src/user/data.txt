@@ -1,0 +1,843 @@
+
+[11:16:11.066]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:16:11.172]??????tone_play_end
+
+[11:16:12.085]??????*****************AC692x SDK START**********************
+*****************Apr 26 2023 14:02:26*****************
+Start_Flag:0x0
+UPDATA_RESULT : 0x5a00
+boot_arg_list->osc_type : 3
+boot_arg_list->dev_type : 0
+boot_arg_list->spi_post : 0
+boot_arg_list->osc_freq : 24
+boot_arg_list->file_size: 405504
+boot_arg_list->boot_method: 0
+OTHER RST : 10
+reg0 : 0
+reg1 : 0
+lsb_clk:32000000 div:1
+pmu reset : 1
+
+[11:16:12.120]??????**************ldo_ref = 1219**********
+ADC_DIV = 4,clk:24000000,lsb:32000000
+mem_vol:27
+dac_init
+dac_on slowly
+
+[11:16:12.159]??????dac_sr = 8000
+
+[11:16:12.219]??????<--------update_result_deal=0x5a00--------->
+flash_var_init_api
+cache 0x1e08
+usb 0x1e5c
+sd0 0x0
+sd1 0x1eb0
+exflash 0x1f04
+wait cache_online
+cache_online & sys start
+flash DEV--------INIT
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+---------------dev_offline name = exflash------------------
+
+[11:16:13.211]??????*****************AC692x SDK START**********************
+*******
+[11:16:13.238]??????**********Apr 26 2023 14:02:26*****************
+Start_Flag:0x0
+UPDATA_RESULT : 0x5a00
+boot_arg_list->osc_type : 3
+boot_arg_list->dev_type : 0
+boot_arg_list->spi_post : 0
+boot_arg_list->osc_freq : 24
+boot_arg_list->file_size: 405504
+boot_arg_list->boot_method: 0
+LVD RST
+reg0 : 0
+reg1 : 0
+lsb_clk:32000000 div:1
+pmu reset : 10
+**************ldo_ref = 1219**********
+ADC_DIV = 4,clk:24000000,lsb:32000000
+mem_vol:27
+dac_init
+dac_on slowly
+
+[11:16:13.342]??????dac_sr = 8000
+
+[11:16:13.403]??????<--------update_result_deal=0x5a00--------->
+flash_var_init_api
+cache 0x1e08
+usb 0x1e5c
+sd0 0x0
+sd1 0x1eb0
+exflash 0x1f04
+wait cache_online
+cache_online & sys start
+flash DEV--------INIT
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+---------------dev_offline name = exflash------------------
+
+[11:16:13.611]??????emitter_user_init------------------
+
+0D AA 43 5A 06 6B 
+emitter_read_role_info----OK
+01 BD_ROLE_HOST
+UserFuncInit----OK
+UserGetPowerOnEmitterStatus:0
+emitter_save_MemEnable_info----OK
+00 Emitter_read_sear_addr_info----OK
+
+FF FF FF FF FF FF 
+Emitter_get mem addr err1
+emitter_save_MemEnable_info----OK
+Emitter_save_sear_addr_info
+
+FF FF FF FF FF FF 
+uartAT_read_edr_name_info----OK
+
+42 54 33 32 31 46 2D 65 6D 69 74 74 65 72 5F 54 
+35 00 00 00 00 00 00 00 00 00 00 00 00 00 
+uartAT_read_edr_pcode_info----OK
+
+30 30 30 30 
+uartAT_read_BLE_name_info----first
+uartAT_save_edr_name_info
+
+42 54 33 32 31 46 2D 65 6D 69 74 74 65 72 5F 54 
+35 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+42 54 33 32 31 46 2D 42 4C 45 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+uartAT_read_mode_tone_info----OK
+01 uartAT_read_uart_baud_info----OK
+01 uartAT_read_hfp_set_info----OK
+01 uartAT_read_a2dp_set_info----OK
+01 uartAT_read_ble_enable_set_info----OK
+00 uartAT_read_edr_enable_set_info----OK
+[11:16:13.676]??????
+01 uartAT_read_pcode_simple_info----OK
+00 uartAT_read_power_mode_info----OK
+00 uartAT_read_dat_back_info----OK
+01 uartAT_read_music_trig_info----OK
+00 uartAT_read_uuid_type_info----OK
+00 uartAT_read_uuid_service_info----OK
+0xFFF0 uartAT_read_uuid_charact1_info----OK
+0xFFF1 uartAT_read_uuid_charact2_info----OK
+0xFFF2 uartAT_read_uuid_charact3_info----OK
+0xFFF3 uartAT_read_rec_enbale_info----OK
+00 uartAT_read_back_bt_enbale_info----OK
+01 uartAT_read_bt_backgound_enbale_info----OK
+01 uartAT_read_key_open_enbale_info----OK
+01 uartAT_read_chip_return_enbale_info----OK
+01 uart_ctrl_init-----------------------------------------------1
+----CTRL_UART_SEL == UART1_TXPB0_RXPB1----
+task_run
+task_max = 4 !!, fun = task_switch, line = 91
+
+[11:16:13.730]??????task_bt_init !!
+emitter_init
+media_sbc_init
+task_bt_init ---------------------------11111!!
+tone_index:41
+---------------cur_key_msg_reg = 0x103fe74------------------
+ task switch ok!!, fun = task_manager, line = 237
+task_bt_deal !!
+
+====play music tone start1===
+DEV_SEL_SPEC, fun = file_operate_dev_sel, line = 682
+dev mode = 2c, dev = 1e08,  fun = file_operate_dev_sel, line = 776
+special_part = 0x0
+block_size = 0x200
+fs_drive_open ret = 0x0
+file total = 16, dev = 1e08, fun = file_operate_dev_bp, line = 881
+file_operate_file_sel cur_play_mode = 0x17  
+cur_sel_mode = 0x23  
+curr_file num = 0x10
+PLAY_FILE_BYPATH  = sealast.***
+FOP_OPEN_FILE_BYPATH
+open file ok  
+file type MP3WAV  
+dec_io->check_buf: 16789158
+dac_sr = 16000
+music_player_play ok !! fun = music_player_play, line = 778
+====play music tone start2===
+MSG_UART_PAKAGE_PRO ----- g_uart_flag.type
+00 AT+SF01
+
+AT+SF67 18 ATCMD_C_PRO
+00 01 DD DA 18 02 ATCMD_C_PRO end
+ATCMD_S_FUNC
+01 g_user.edr_status:ff
+Emitter Slave----->Master
+
+[11:16:14.203]??????MSG_UART_PAKAGE_PRO ----- g_uart_flag.type
+00 AT+SPF9A3F32B0F86
+
+AT+SP67 1A ATCMD_C_PRO
+0F 09 0A 03 1A 0C ATCMD_C_PRO end
+ATCMD_S_MAC_CON
+F9 
+F9 A3 F3 2B 0F 86 
+MSG_BT_EMITTER_SEAR_ADDR
+
+F9 A3 F3 2B 0F 86 
+emitter_po
+[11:16:14.251]??????weron_mode
+02 tone_play_end
+
+[11:16:14.499]??????MSG_UART_PAKAGE_PRO ----- g_uart_flag.type
+00 AT+AC02
+
+AT+AC67 02 ATCMD_C_PRO
+00 02 DD DA 02 02 ATCMD_C_PRO end
+MSG_EMITTER_MEDIA_RPT
+
+[11:16:14.667]??????MSG_UART_PAKAGE_PRO ----- g_uart_flag.type
+00 AT+CA27
+
+AT+CA67 1D ATCMD_C_PRO
+02 07 DD DA 1D 02 ATCMD_C_PRO end
+ATCMD_C_VP
+1B MSG_VOL_POINT
+VOL+:27
+
+[11:16:23.854]??????music_tone END ok
+mp3_tone_end
+
+====play music tone end===
+
+[11:16:23.912]??????btif_addr:0x74000
+btif_len:0x1000
+read cfg file ok
+bt_cfg 2 OK
+addr 0:
+0F 09 59 61 D8 35 B2 C2 
+pin_code:
+30 30 30 30 
+rf_power:9
+dac_analog_gain:25
+mic_analog_gain:10
+
+42 54 33 32 31 46 2D 65 6D 69 74 74 65 72 5F 54 
+35 00 00 00 00 00 00 00 00 00 00 00 00 00 
+LocalName111111:BT321F-emitter_T5
+
+30 30 30 30 
+
+30 30 30 30 
+emitter_master
+
+[11:16:24.241]??????
+F9 A3 F3 2B 0F 87 
+BT_STATUS_INIT_OK
+bt_emitter_host_init_OK
+[11:16:24.264]??????
+emitter_poweron_mode
+02 get_osc_internal_info tone_play_end
+ is null xx
+get_osc_internal_info err
+
+[11:16:24.351]??????submit vm succ
+
+[11:16:29.362]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:16:29.473]??????tone_play_end
+
+[11:16:34.576]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:16:34.681]??????tone_play_end
+
+[11:16:39.786]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:16:39.896]??????tone_play_end
+
+[11:16:44.999]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:16:45.106]??????tone_play_end
+
+[11:16:50.210]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:16:50.320]??????tone_play_end
+
+[11:16:55.424]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:16:55.531]??????tone_play_end
+
+[11:17:00.635]??????inquiry_timeout-111:0
+
+[11:17:00.652]??????--MSG_BT_INQIRY_DEVICE
+
+[11:17:00.744]??????tone_play_end
+
+[11:17:05.846]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:17:05.955]??????tone_play_end
+
+[11:17:07.447]??????\0
+[11:17:09.101]??????*****************AC692x SDK START**********************
+*****************Apr 26 2023 14:02:26*****************
+Start_Flag:0x0
+UPDATA_RESULT : 0x5a00
+boot_arg_list->osc_type : 3
+boot_arg_list->dev_type : 0
+boot_arg_list->spi_post : 0
+boot_arg_list->osc_freq : 24
+boot_arg_list->file_size: 405504
+boot_arg_list->boot_method: 0
+LVD RST
+reg0 : 0
+reg1 : 0
+lsb_clk:32000000 div:1
+pmu reset : 1
+**************ldo_ref = 1219**********
+ADC_DIV = 4,clk:24000000,lsb:32000000
+mem_vol:27
+dac_init
+dac_on slowly
+
+[11:17:09.268]??????dac_sr = 8000
+
+[11:17:09.329]??????<--------update_result_deal=0x5a00--------->
+flash_var_init_api
+cache 0x1e08
+usb 0x1e5c
+sd0 0x0
+sd1 0x1eb0
+exflash 0x1f04
+wait cache_online
+cache_online & sys start
+flash DEV--------INIT
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+
+FF FF FF 
+
+****ff    ff    ff****
+flash DEV ------ -------------------- NULL
+flash DEV--------OFFLINE
+---------------dev_offline name = exflash------------------
+
+[11:17:09.537]??????emitter_user_init------------------
+
+0D AA 43 5A 06 6B 
+emitter_read_role_info----OK
+01 BD_ROLE_HOST
+UserFuncInit----OK
+UserGetPowerOnEmitterStatus:0
+emitter_save_MemEnable_info----OK
+00 Emitter_read_sear_addr_info----OK
+
+FF FF FF FF FF FF 
+Emitter_get mem addr err1
+emitter_save_MemEnable_info----OK
+Emitter_save_sear_addr_info
+
+FF FF FF FF FF FF 
+uartAT_read_edr_name_info----OK
+
+42 54 33 32 31 46 2D 65 6D 69 74 74 65 72 5F 54 
+35 00 00 00 00 00 00 00 00 00 00 00 00 00 
+uartAT_read_edr_pcode_info----OK
+
+30 30 30 30 
+uartAT_read_BLE_name_info----first
+uartAT_save_edr_name_info
+
+42 54 33 32 31 46 2D 65 6D 69 74 74 65 72 5F 54 
+35 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+42 54 33 32 31 46 2D 42 4C 45 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+uartAT_read_mode_tone_info----OK
+01 uartAT_read_uart_baud_info----OK
+01 uartAT_read_hfp_set_info----OK
+01 uartAT_read_a2dp_set_info----OK
+01 uartAT_read_ble_enable_set_info----OK
+00 uartAT_read_edr_enable_set_info----OK
+01 uartAT_read_pcode_simple_info----OK
+00 uartAT_read_power_mode_info----OK
+00 uartAT_read_dat_back_info----OK
+01 uartAT_read_music_trig_info----OK
+00 uartAT_read_uuid_type_info----OK
+00 uartAT_read_uuid_service_info----OK
+0xFFF0 uartAT_read_uuid_charact1_info----OK
+0xFFF1 uartAT_read_uuid_charact2_info----OK
+0xFFF2 uartAT_read_uuid_charact3_info----OK
+0xFFF3 uartAT_read_rec_enbale_info----OK
+00 uartAT_read_back_bt_enbale_info----OK
+01 uartAT_read_bt_backgound_enbale_info----OK
+01 uartAT_read_key_open_enbale_info----OK
+01 uartAT_read_chip_return_enbale_info----OK
+01 uart_ctrl_init-----------------------------------------------1
+----CTRL_UART_SEL == UART1_TXPB0_RXPB1----
+task_run
+task_max = 4 !!, fun = task_switch, line = 91
+
+[11:17:09.655]??????task_bt_init !!
+emitter_init
+media_sbc_init
+task_bt_init ---------------------------11111!!
+tone_index:41
+---------------cur_key_msg_reg = 0x103fe74------------------
+ task switch ok!!, fun = task_manager, line = 237
+task_bt_deal !!
+
+====play music tone start1===
+DEV_SEL_SPEC, fun = file_operate_dev_sel, line = 682
+dev mode = 2c, dev = 1e08,  fun = file_operate_dev_sel, line = 776
+special_part = 0x0
+block_size = 0x200
+fs_drive_open ret = 0x0
+file total = 16, dev = 1e08, fun = file_operate_dev_bp, line = 881
+file_operate_file_sel cur_play_mode = 0x17  
+cur_sel_mode = 0x23  
+curr_file num = 0x10
+PLAY_FILE_BYPATH  = sealast.***
+FOP_OPEN_FILE_BYPATH
+open file ok  
+file type MP3WAV  
+dec_io->check_buf: 16789158
+dac_sr = 16000
+music_player_play ok !! fun = music_player_play, line = 778
+====play music tone start2===
+g_user.edr_status:ff
+
+[11:17:11.924]??????music_tone END ok
+mp3_tone_end
+
+====play music tone end===
+
+[11:17:11.979]??????btif_addr:0x74000
+btif_len:0x1000
+read cfg file ok
+bt_cfg 2 OK
+addr 0:
+0F 09 59 61 D8 35 B2 C2 
+pin_code:
+30 30 30 30 
+rf_power:9
+dac_analog_gain:25
+mic_analog_gain:10
+
+42 54 33 32 31 46 2D 65 6D 69 74 74 65 72 5F 54 
+35 00 00 00 00 00 00 00 00 00 00 00 00 00 
+LocalName111111:BT321F-emitter_T5
+
+30 30 30 30 
+
+30 30 30 30 
+emitter_master
+
+[11:17:12.401]??????
+F9 A3 F3 2B 0F 87 
+BT_STATUS_INIT_OK
+bt_emitter_host_init_OK
+emitter_poweron_mode
+02 get_osc_internal_info  is null xx
+get_osc_interntone_play_end
+al_info err
+
+[11:17:17.524]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:17:17.631]??????tone_play_end
+
+[11:17:22.736]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:17:22.848]??????tone_play_end
+
+[11:17:27.956]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:17:28.064]??????tone_play_end
+
+[11:17:33.169]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:17:33.281]??????tone_play_end
+
+[11:17:38.380]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+    
+[11:17:38.488]??????tone_play_end
+
+[11:17:48.805]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:17:48.912]??????tone_play_end
+
+[11:17:59.230]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:17:59.336]??????tone_play_end
+
+[11:18:04.441]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:18:04.551]??????tone_play_end
+
+[11:18:09.657]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+
+[11:18:09.699]??????tone_play_end
+
+[11:18:14.799]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:19.926]??????inquiry_timeout-111:0
+
+[11:18:19.967]??????--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:25.051]??????inquiry_timeout-111:0
+
+[11:18:25.084]??????--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:30.179]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:35.304]??????inquiry_timeout-111:0
+
+[11:18:35.328]??????--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:35.359]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:18:40.431]??????inquiry_timeout-111:0
+
+[11:18:40.456]??????--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:45.557]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:46.534]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:18:47.415]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:18:54.060]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:54.959]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:18:55.339]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:18:56.600]??????g_emitter.contype:2
+addr1get se
+[11:18:56.629]??????arch addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:18:59.180]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:18:59.503]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:18:59.752]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:19:00.762]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:19:07.095]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:19:07.996]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:19:08.378]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:19:08.626]??????g_emitter.contype:2
+addr1get search addr
+
+F9 A3 F3 2B 0F 87 
+memory addr
+
+F4 AD D2 04 D0 B7 
+addr match -----uart----- fail
+
+[11:19:08.896]??????MSG_UART_PAKAGE_PRO ----- g_uart_flag.type
+00 AT+SF06
+
+AT+SF67 18 ATCMD_C_PRO
+00 06 DD DA 18 02 ATCMD_C_PRO end
+ATCMD_S_F
+[11:19:08.925]??????UNC
+06 MSG_BT_EMITTER_SEAR_RANDOM
+get list addr
+
+0D AA 43 5A 06 6B 
+emitter_poweron_mode
+01 tone_play_end
+
+[11:19:12.226]??????inquiry_timeout-111:0
+--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:19:12.538]??????g_emitter.contype:1
+inquiry_timeout-111:1
+send msg MSG_BT_SEARCH_DEVICE--wait
+
+[11:19:15.736]??????bt_discon_complete:0x0
+cur_search_index=0x1
+
+[11:19:16.343]??????--MSG_BT_INQIRY_DEVICE
+tone_play_end
+
+[11:19:17.125]??????BT_CONNTCTED:1
+BT_STATUS_RECONN_OR_CONN:1
+reconn ok
+MSG_BT_TONE_CONN
+tone_index:11
+
+====play music tone start1===
+
+[11:19:17.206]??????DEV_SEL_SPEC, fun = file_operate_dev_sel, line = 682
+dev mode = 2c, dev = 1e08,  fun = file_operate_dev_sel, line = 776
+special_part = 0x0
+block_size = 0x200
+fs_drive_open ret = 0x0
+file total = 16, dev = 1e08, fun = file_operate_dev_bp, line = 881
+file_operate_file_sel cur_play_mode = 0x17  
+cur_sel_mode = 0x23  
+curr_file num = 0x10
+PLAY_FILE_BYPATH  = /connect.***
+FOP_OPEN_FILE_BYPATH
+open file ok  
+file type MP3WAV  
+dec_io->check_buf: 16789158
+music_player_play ok !! fun = music_player_play, line = 778
+====play music tone start2===
+BT_STATUS_CONN_A2DP_CH:1
+
+87 0F 2B F3 A3 F9 
+
+[11:19:17.366]??????g_user.edr_status:0
+
+[11:19:18.349]??????music_tone END ok
+mp3_tone_end
+[11:19:18.380]??????
+
+====play music tone end===
+
+[11:19:19.236]??????Emitter_media_start
+Emitter_media_start
+usb dev_status:0
+sd1 dev_status:0
+emitter start : AUX
+current source: 1-1
+emitter_aux_open
+AUDIO_EFFECT:HW_SRC
+HW_src init
+in_sr:44100 
+out_sr:44100
+src_enable src mem:352
+dac_sr = 44100
+Emitter_media_start
+01 
+0D AA 43 5A 06 6B 
+
+[11:19:21.477]??????inquiry_timeout-111:0
+KKKKKKK--MSG_BT_INQIRY_DEVICE
+Please Disconnect Connected Device!

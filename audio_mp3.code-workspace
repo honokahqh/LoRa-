@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"lora_core.h": "c",
+			"tremo_rtc.h": "c",
+			"tremo_system.h": "c",
+			"flash.h": "c",
+			"app.h": "c",
+			"tremo_regs.h": "c",
+			"at_process.h": "c",
+			"lora_flash.h": "c",
+			"stdint.h": "c",
+			"stdio.h": "c",
+			"radio.h": "c",
+			"tremo_i2s.h": "c",
+			"string.h": "c",
+			"bsp_inc.h": "c",
+			"timer.h": "c",
+			"ymodem.h": "c",
+			"lora_user.h": "c",
+			"ES8311.C": "cpp",
+			"tuya_cloud_types.h": "c",
+			"mp3_data.h": "c",
+			"send_packet.h": "c",
+			"tremo_i2c.h": "c",
+			"shine_mp3.h": "c",
+			"minimp3.h": "c"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+    "files.associations": {
+        "lora_core.h": "c",
+        "tremo_rtc.h": "c",
+        "tremo_system.h": "c",
+        "flash.h": "c",
+        "app.h": "c",
+        "tremo_regs.h": "c",
+        "at_process.h": "c",
+        "lora_flash.h": "c",
+        "stdint.h": "c",
+        "stdio.h": "c",
+        "radio.h": "c",
+        "tremo_i2s.h": "c",
+        "string.h": "c",
+        "minimp3.h": "c",
+        "shine_mp3.h": "c",
+        "ES8311.C": "cpp"
+    },
+    "search.exclude": {},
+    "files.exclude": {
+        // "*.*": true,
+        // "cfg": true,
+        // "CMSIS": true,
+        // "crypto": true,
+        // "driver": true,
+        // "inc": true,
+        // "Listings": true,
+        // "Objects": true,
+        // "peripheral": true,
+        // "utils": true,
+    },
+    "files.encoding": "gbk"
+}

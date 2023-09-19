@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 ∫Œ«¨∫¿, 123123, LIC=ZB4EI-T291H-9U94U-S9BEL-0IQFX-SE5UR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  E:\Software\gcc_2021.10\bin
+C Compiler:      GCC.exe
+Assembler:       AS.exe
+Linker/Locator:  LD.exe
+Library Manager: AR.exe
+Hex Converter:   OBJCOPY.exe
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\self\module\origin\”Ô“Ù∂‘Ω≤\project.uvprojx
+Project File Date:  09/06/2023
+
+<h2>Output:</h2>
+Build target 'project'
+compiling main.c...
+src/main.c: In function 'main':
+src/main.c(60): warning: implicit declaration of function 'Decode_Start_32kbps'; did you mean 'Decode_Start'? [-Wimplicit-function-declaration]
+At top level:
+src/main.c(112): warning: 'Decode_Function' defined but not used [-Wunused-function]
+src/main.c(85): warning: 'Encode_Function' defined but not used [-Wunused-function]
+compiling lora_user.c...
+src/user/lora_user.c: In function 'Cmd_Lora_SP_Data':
+src/user/lora_user.c(152): warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+e:\software\gcc_2021.10\arm-none-eabi\include\string.h:31:17: note: expected 'void * restrict' but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+src/user/lora_user.c(172): warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+e:\software\gcc_2021.10\arm-none-eabi\include\string.h:31:17: note: expected 'void * restrict' but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+src/user/lora_user.c: In function 'Cmd_Lora_Call_Service_ACK':
+src/user/lora_user.c(219): warning: implicit declaration of function 'Decode_Start_32kbps'; did you mean 'Decode_Start'? [-Wimplicit-function-declaration]
+linking...
+creating hex file...
+".\Objects\project.elf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  E:\Software\Document\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
